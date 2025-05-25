@@ -26,7 +26,7 @@ public class Eighth {
 						 
 					 }
 					 System.out.println();
-				 }
+			 }
 				 
 
 					
@@ -34,3 +34,4 @@ public class Eighth {
 	}
 
 }
+

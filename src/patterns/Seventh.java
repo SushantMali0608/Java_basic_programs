@@ -16,20 +16,34 @@ public class Seventh {
 		 int rows = sc.nextInt();
 		 System.out.println("Enter number of cols");
 		 int cols = sc.nextInt();
+		 int num =1;
+//		 for(int i=0;i<rows;i++) {
+//			 for(int j=0;j<=i;j++) {
+//				if((i+j)%2==0) {
+//					System.out.print("1");
+//				} 
+//				else {
+//					System.out.print("0");
+//				}
+//				 
+//			 }
+//			 System.out.println();
+//		 }
+//		 
 		 for(int i=0;i<rows;i++) {
-			 for(int j=0;j<=i;j++) {
+			 for(int j=0;j<num;j++) {
 				if((i+j)%2==0) {
 					System.out.print("1");
 				} 
 				else {
 					System.out.print("0");
 				}
-				 
 			 }
+			 num=num+1;
 			 System.out.println();
 		 }
-		 
 
 	}
 
 }
+
