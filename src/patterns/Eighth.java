@@ -9,7 +9,7 @@ public class Eighth {
 		//1
 		//10
 		//101
-		//1010
+		//101
 				 Scanner sc =new Scanner(System.in);
 				 System.out.println("Enter number of rows");
 				 int rows = sc.nextInt();

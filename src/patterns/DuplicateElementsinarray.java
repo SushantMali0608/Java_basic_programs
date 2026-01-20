@@ -28,7 +28,7 @@ public class DuplicateElementsinarray {
 //		}
 //	
 //		System.out.println(duplicate);
-		int array[]={3,2,4,1,5,8,7,7,5,4,4,3,};
+		int array[]={3,2,4,1,5,8,7,7,5,4,4,3};
         List<Integer> l1= new ArrayList<Integer>();
         for(int i=0;i<array.length;i++){
             for(int j=i+1;j<array.length;j++){

@@ -5,7 +5,7 @@ public class Largest_and_smallestelementfromarray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//largest number
-		int arr1[]= {1,10,20,100,50,1000};
+		int arr1[]= {1,10,50000,100,50,1000};
 		int largest =arr1[0];
 		for(int i =0;i<arr1.length;i++) {
 			if(arr1[i]>largest) {
@@ -13,7 +13,7 @@ public class Largest_and_smallestelementfromarray {
 				
 			}
 			
-		
+		}
 		System.out.println(largest);
 		
 //		//smallest number
@@ -32,4 +32,4 @@ public class Largest_and_smallestelementfromarray {
 	}
 
 	}
-}
+
